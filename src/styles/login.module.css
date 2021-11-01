@@ -81,7 +81,8 @@ input[type="radio"]{
 }
 .images img{
 	width: 720px;
-	height: 899.82px;}
+	height: 899.82px;
+}
 	.loginform{
 		margin: auto;
 		padding: 20px;
@@ -91,5 +92,14 @@ input[type="radio"]{
 		
 		margin-top: 161px;
 		text-align: center;
+	}
+	@media only screen and (max-width:500px) {
+		/* For mobile phones: */
+		img{
+			display: none;
+		}
+		.loginform{
+			margin-top: 0;
+		}
 	}
 
