@@ -25,7 +25,8 @@ const Loginpage = () =>{
         <p style={{color:"#2C5282"}}>Forgot password?</p>
       </div>
       <button className={styles.loginbutton}>login now</button><br/>
-      <button className={styles.Googlebutton}><img src="iconfinderGoogle.png" alt=" "/>or sign-in with google</button>  
+      <button className={styles.Googlebutton}><img src="iconfinderGoogle.png" alt=" "/>or sign-in with google</button> 
+      <div className={styles.account}><p>Dont have an account? Join free today</p></div> 
       </div>
     </div>
   );
