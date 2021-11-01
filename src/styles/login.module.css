@@ -7,10 +7,11 @@
 	line-height: 19px;
 }
 h2{
+	font-weight: bold;
 font-style: normal;
 font-size: 30px;
 color: #1A202C;
-margin: 5px 5px;
+margin: 5px 0 10px 0;
 padding-bottom: 20px;
 }
 p{
@@ -24,12 +25,12 @@ p{
 	color: #4A5568;
 }
 .container{
-	
+	display: flex;
 	margin: auto;
-	width: 350px;
+	/* width: 350px; */
 	padding: 10px;
 	align-self: center;
-	margin-top: 10%;
+	/* margin-top: 10%; */
 }
 input[type="password"], input[type="email"]{
 border: 1px solid #E8E8E8;
@@ -47,10 +48,8 @@ background: #F7FAFC;
 border: 1px solid #E8E8E8;
 box-sizing: border-box;
 }
-.loginbutton{
-background: #04C45C;
+button{
 border-radius: 5px;
-padding: 6px 20px;
 margin: 15px 0;
 border: none;
 cursor: pointer;
@@ -58,22 +57,33 @@ color: #FFFFFF;
 width: 347px;
 height: 50px;
 }
+.loginbutton{
+background: #04C45C;
+
+}
 .Googlebutton{
 background: #2D3748;
-border-radius: 5px;
-border: none;
-border: none;
-cursor: pointer;
-color: #FFFFFF;
-width: 347px;
-height: 50px;
 }
 .pwdremaining{
 	margin-bottom: 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	width: 342px;
 }
 input[type="radio"]{
 	margin: 4px;
 }
+.Googlebutton img{
+	
+	margin-right: 8px;
+
+}
+.images img{
+	width: 720px;
+	height: 899.82px;}
+	.loginform{
+		border: 1px solid blueviolet;
+		width: 200px;
+		margin: auto;
+	}
